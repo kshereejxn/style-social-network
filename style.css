@@ -10,6 +10,16 @@ body {
     background-color: rgb(89, 104, 167);
     margin: 0 auto;
 }
+#name {
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+#website {
+    position: relative;
+    top: 190px;
+    left: 200px;
+}
 .header ul {
     list-style: none;
     margin: 0;
@@ -19,11 +29,15 @@ body {
 }
 .header li {
     float: left;
-    color: white;
+    background-color: white;
     font-size: 20px;
-    border: 2px solid rgb(241, 241, 241);
+    border: 1px solid rgb(241, 241, 241);
     padding: 5px;
     margin: 5px auto;
+}
+#like {
+    margin-right: 10px;
+    border: none;
 }
 .header h1 {
     color: white;
@@ -47,7 +61,7 @@ body {
     float: right;
 }
 .navbar li {
-    float: left;
+    float: left; 
     color: black;
     font-size: 20px;
     border-right: 2px solid rgb(241, 241, 241);
@@ -69,6 +83,12 @@ li:last-child {
     top: -120px;
     left: -340px;
     border-radius: 1.7%;
+}
+#pic {
+    width: 90%;
+    height: 90%;
+    margin-left: 7px;
+    margin-top: 7px;
 }
 .parentcolumn {
     width: 850px;
