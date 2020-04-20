@@ -70,3 +70,18 @@ li:last-child {
     left: -340px;
     border-radius: 1.7%;
 }
+.parentcolumn {
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.column1 {
+    width: 328px;
+    background-color: white;
+    float: left;
+}
+.column2 {
+    width: 512px;
+    background-color: white;
+    float: right;
+}
