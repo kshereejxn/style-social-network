@@ -12,13 +12,18 @@ body {
 }
 #name {
     position: relative;
-    top: 200px;
+    top: 220px;
     left: 200px;
 }
 #website {
     position: relative;
-    top: 190px;
+    top: 200px;
     left: 200px;
+}
+#buttonset1 {
+    position: relative;
+    top: 140px;
+    left: -5px;
 }
 .header ul {
     list-style: none;
@@ -30,14 +35,14 @@ body {
 .header li {
     float: left;
     background-color: white;
-    font-size: 20px;
-    border: 1px solid rgb(241, 241, 241);
+    font-size: 15px;
+    border: .5px solid gray;
     padding: 5px;
     margin: 5px auto;
+    border-radius: 2.5%;
 }
 #like {
     margin-right: 10px;
-    border: none;
 }
 .header h1 {
     color: white;
@@ -53,12 +58,14 @@ body {
     border-radius: 1.7%;
     margin: 0 auto;
 }
+
 .navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
-    float: right;
+    position: relative;
+    left: 200px;
 }
 .navbar li {
     float: left; 
