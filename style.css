@@ -10,6 +10,27 @@ body {
     background-color: rgb(89, 104, 167);
     margin: 0 auto;
 }
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+.header li {
+    float: left;
+    color: white;
+    font-size: 20px;
+    border: 2px solid rgb(241, 241, 241);
+    padding: 5px;
+    margin: 5px auto;
+}
+.header h1 {
+    color: white;
+}
+.header h2 {
+    color: white;
+}
 
 .navbar {
     height: 50px;
@@ -18,19 +39,18 @@ body {
     border-radius: 1.7%;
     margin: 0 auto;
 }
-ul {
+.navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
     float: right;
-    color: black;
 }
-li {
+.navbar li {
     float: left;
     color: black;
     font-size: 20px;
-    border-right: 1px solid rgb(241, 241, 241);
+    border-right: 2px solid rgb(241, 241, 241);
     padding: 5px;
     margin: 5px auto;
 }
@@ -45,7 +65,8 @@ li:last-child {
     width: 150px;
     background-color: rgb(89, 104, 167);
     position: relative;
-    top: -170px;
-    left: 550px;
+    margin: 0 auto;
+    top: -120px;
+    left: -340px;
     border-radius: 1.7%;
 }
